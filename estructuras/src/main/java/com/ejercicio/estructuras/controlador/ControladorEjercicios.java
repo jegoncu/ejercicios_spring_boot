@@ -11,9 +11,9 @@ public class ControladorEjercicios {
 	public String ejercicio1(@RequestParam int numero) {
 		String respuesta = "";
 		if (numero % 2 == 0) {
-			respuesta += numero + "es par";
+			respuesta += numero + " es par";
 		} else {
-			respuesta += numero + "es impar";
+			respuesta += numero + " es impar";
 		}
 
 		return "<p>" + respuesta + "<p>";
